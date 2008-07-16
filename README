@@ -1,0 +1,18 @@
+CarryOn
+=======
+
+Why check your gems at /usr/lib when you can pack a CarryOn?
+
+CarryOn is a Ruby on Rails plugin that allows you to install rubygems into your
+app's +vendor/+ directory. When your app starts up, gems you installed with
+CarryOn will shadow system gems. Gems with C extensions may be compiled for
+multiple platforms.
+
+
+Example
+=======
+
+./script/gem install /path/to/your.gem
+
+
+Copyright (c) 2007 Jeremy Voorhis, released under the MIT license
